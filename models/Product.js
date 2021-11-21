@@ -30,7 +30,7 @@ Product.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       defaultValue: 10,
-      validate: {
+      Validate: {
         isNumeric: true,
       },
     },
@@ -42,7 +42,6 @@ Product.init(
       },
     },
   },
-
   {
     sequelize,
     timestamps: false,
