@@ -43,7 +43,6 @@ npm install express
 ```md
 npm install dotenv
 ```
-in terminal
 
 ## Usage
 
